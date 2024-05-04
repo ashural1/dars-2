@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  .next {
+    border: none;
+    background: none;
+    border: 2px ;
+    padding: 10px 35px;
+    background: rgb(207, 65, 65);
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  .back {
+    border: none;
+    background: none;
+    border: 2px ;
+    padding: 10px 35px;
+    background: gold;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+}
+
+.img {
+  border-radius: 15px;
+  width: 800px;
+  height: 400px;
+
+  object-fit: cover;
+  object-position: center !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
